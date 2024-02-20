@@ -1,4 +1,20 @@
 .container-1 {
     border: 5px solid navy;
     height: 500px;
+    /* flex properties for parent (aka container) element */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#child-1 {
+    border: 2px solid red;
+}
+
+#child-2 {
+    border: 2px solid green;
+    order: 1;
 }
