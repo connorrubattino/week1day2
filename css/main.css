@@ -180,13 +180,28 @@ div[title~="border"] {
 
 /* CSS DISPLAYS */
 
+.block-level {
+    border:2px solid black;
+}
 
+.block-level > h3 {
+    border: 3px solid magenta;
+    /* override deault display of block */
+    display: inline;
+}
+
+#displays a {
+    border: 3px solid red;
+}
 
 /* 
     Display: None
     Used to hide an element. Commonly used with JavaScript 
 */
-
+#middle{
+    border: 3px solid teal;
+    display: none;
+}
 
 
 /* CSS POSITIONS */
