@@ -3,7 +3,7 @@
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: dodgerblue;
     padding: 2vw;
     position: sticky;
